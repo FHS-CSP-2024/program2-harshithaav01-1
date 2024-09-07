@@ -49,9 +49,9 @@
 ## Problem 1 ##
 #Please write a script that: 
 # - Asks for the user's name and then prints it twice, on two consecutive lines.
-
-
-
+name = input("What is your name? ")
+input(name)
+input(name)
 
 
 ## Problem 2 ##
@@ -59,7 +59,8 @@
 # - Asks for the user's name
 # - Prints it out twice on a single line so that there is an exclamation mark at the beginning of the line, 
 # - another between the two names and a third one at the end of the line.
-
+name = input("What is your name? ")
+print("!" + name + "!" + name + "!")
 
 ## Problem 3 ##
 #Please write a script that: 
@@ -71,11 +72,26 @@
 #   - Street address: 91 Station Road
 #   - City and postal code: Folsom CA, 95630
 
+name = input("What is your first name? ")
+name2 = input("What is your last name? ")
+address = input("What is your address? ")
+address2 = input("What is your City and postal code? ")
+
+print("First name: " + name)
+print("Last name: " + name2)
+print("Street address: " + address)
+print("City and postal code: " + address2)
+
 ## Problem 4 ##
 #Please write a script that: 
 # - Asks for 3 words 
 # - Puts the words together with dashes and prints that out
 
+word1 = input("Type one word")
+word2 = input("Type one word")
+word3 = input("Type one word")
+
+print(word1 + "-" + word2 + "-" + word3)
 
 ## Problem 5 ##
 #Please write a script that: 
@@ -88,3 +104,9 @@
 #Mary is a valiant knight, born in the year 1572. 
 #One morning Mary woke up to an awful racket: a dragon was approaching the village. 
 #Only Mary could save the village's residents.
+
+finalname = input("Type a name")
+year = input("Type a year")
+print(finalname + " Lived in the streets of Gandful, born in " + year )
+print("She grew up in poverty and fought for everything she wanted.")
+print("As years passed however, with her cunningness and strength she was able to run the dark alleys of Ganful.")
